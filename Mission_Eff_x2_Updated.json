@@ -1,0 +1,240 @@
+{
+  "modinfo": {
+    "title": "MissionEff_x2",
+    "version": "1.01",
+    "author": "Hexagon revised by voiddoiv",
+    "description": "For Crimson Desert 1.03"
+  },
+  "format": 2,
+  "patches": [
+    {
+      "game_file": "gamedata/binary__/client/bin/skill.pabgb",
+      "changes": [
+        {
+          "type": "replace",
+          "entry": "Skill_Farming_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Farming_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Farming_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Ranching_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Ranching_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Ranching_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Logging_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Logging_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Logging_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Mining_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Mining_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Mining_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Forging_I",
+          "rel_offset": 136,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Forging_II",
+          "rel_offset": 136,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Forging_III",
+          "rel_offset": 136,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Strengthening_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Strengthening_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Strengthening_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Fishing_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Fishing_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Fishing_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Gathering_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Gathering_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Gathering_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Banking_I",
+          "rel_offset": 133,
+          "original": "10270000",
+          "patched": "204e0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Banking_II",
+          "rel_offset": 133,
+          "original": "30750000",
+          "patched": "60ea0000",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_Banking_III",
+          "rel_offset": 133,
+          "original": "60ea0000",
+          "patched": "c0d40100",
+          "label": ""
+        },
+        {
+          "type": "replace",
+          "entry": "Skill_SuperWorker",
+          "rel_offset": 128,
+          "original": "a0860100",
+          "patched": "400d0300",
+          "label": ""
+        }
+      ]
+    }
+  ]
+}
